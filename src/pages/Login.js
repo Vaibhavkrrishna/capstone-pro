@@ -1,7 +1,10 @@
 import React from 'react'
 
 export default function Login() {
+  let [show,setShow] = useState(true);
   return (
-    <div>Login</div>
+    <div><button onClick={()=>{
+        setShow(!show)
+      }}>Login</button></div>
   )
 }
