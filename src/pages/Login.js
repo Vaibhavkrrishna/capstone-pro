@@ -1,5 +1,6 @@
 import React, {useContext,useState} from 'react';
 
+<<<<<<< HEAD
 import { useSetState } from 'react-use';
 import { AuthContext } from '../context/Auth.context.js';
 import './Login.css';
@@ -70,6 +71,14 @@ const LoginForm = () => {
       { loginError && <div>{loginError.message}</div> }
     </form>
     </div>
+=======
+export default function Login() {
+  let [show,setShow] = useState(true);
+  return (
+    <div><button onClick={()=>{
+        setShow(!show)
+      }}>Login</button></div>
+>>>>>>> 5424ffd30434ebd79d1e5ebc1777e1405236e6a9
   )
 }
 
