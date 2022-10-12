@@ -1,10 +1,16 @@
-import React from 'react'
-import Header from './pages/Header'
+import React, {useContext} from "react";
 
-export default function App() {
-  return (
-    <div>App
-      <h1>Change from irene</h1>
-    </div>
-  )
+import { AuthContext } from './context/Auth.context.js';
+import Login from './pages/Login.js';
+import Dashboard from './pages/Dashboard.js';
+
+const App = () => {
+  const { state } = useContext(AuthContext);
+
+  if (!state.isLoggedIn) 
+    return <Login />;
+  else
+    return <Dashboard />
 }
+
+export default App;
