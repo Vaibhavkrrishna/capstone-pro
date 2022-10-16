@@ -1,0 +1,134 @@
+{
+  "users": [
+    {
+      "title": "All Things Science",
+      "authorID": "auth id",
+      "category": "Science",
+      "imageUrl": "https://www.sciencenewsforstudents.org/wp-content/uploads/2020/09/1030_SS_Chemical.jpg",
+      "summary": "This is a small description of my science blog",
+      "Status of Blog ": "In Progress",
+      "id": 1
+    },
+    {
+      "title": "Changing Habits",
+      "authorID": "auth id",
+      "category": "Fiction",
+      "imageUrl": "https://th.bing.com/th/id/R.bea471cdfc8a8c65ead2786330d0d420?rik=CEFU%2fwN2UnycaA&riu=http%3a%2f%2ftrpphysio.com.au%2fcms%2fwp-content%2fuploads%2f2016%2f03%2fDollarphotoclub_96599625-e1457404655525.jpg&ehk=z%2bJkl23qGKT%2bmYA7%2bdvpwQMWt2AtRcCbLgX8SuNGqDk%3d&risl=&pid=ImgRaw&r=0",
+      "summary": "This is a small description of my healthy food blog",
+      "Status of Blog ": "In Progress",
+      "id": 2
+    },
+    {
+      "title": "Next Wave of Technology",
+      "authorID": "auth id",
+      "category": "Technology",
+      "imageUrl": "https://www.connectria.com/wp-content/uploads/2019/06/cloud_technology_trends.jpeg",
+      "summary": "This is a small description of my techblog",
+      "Status of Blog ": "In Progress",
+      "id": 3
+    },
+    {
+      "title": "Better Living",
+      "authorID": "auth id",
+      "category": "Fiction",
+      "imageUrl": "https://www.goatsontheroad.com/wp-content/uploads/2020/03/Nepal-Travel-Guide.jpg",
+      "summary": "This is a small description of my travel blog",
+      "Status of Blog ": "In Progress",
+      "id": 4
+    },
+    {
+      "title": "Cricket",
+      "authorID": "auth id",
+      "category": "Sports",
+      "imageUrl": "https://www.cricket.com.au/-/media/News/2017/12/18Aus-cele1.ashx",
+      "summary": "This is a small description of my sports blog",
+      "Status of Blog ": "In Progress",
+      "id": 5
+    },
+    {
+      "title": "Fit Forward",
+      "authorID": "auth id",
+      "category": "Sports",
+      "imageUrl": "https://tse3.mm.bing.net/th/id/OIP.txVdKxqPCWwjBXeJBvNDIQHaEK?pid=ImgDet&w=2000&h=1125&rs=1",
+      "summary": "This is a small description of my fitness blog",
+      "Status of Blog ": "In Progress",
+      "id": 6
+    },
+    {
+      "title": "Techno Babble",
+      "authorID": "auth id",
+      "category": "Technology",
+      "imageUrl": "https://www.deaf-interpreter.com/wp-content/uploads/2016/02/digital_diagram_business_and_technology_by_prophotostock-d711fj6.jpg",
+      "summary": "This is a small description of my technology blog",
+      "Status of Blog ": "In Progress",
+      "id": 7
+    },
+    {
+      "title": "Bit Tech",
+      "authorID": "auth id",
+      "category": "Technology",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0026/7132/articles/cool-technology-2016-in-tech_2048x2048.jpg?v=1453993699",
+      "summary": "This is a small description of my technology blog",
+      "Status of Blog ": "In Progress",
+      "id": 8
+    },
+    {
+      "title": "Hockey",
+      "authorID": "auth id",
+      "category": "Sports",
+      "imageUrl": "https://www.towcestrians.co.uk/wp-content/uploads/2019/10/Hockey-Header-Image.jpg",
+      "summary": "This is a small description of my fitness blog",
+      "Status of Blog ": "In Progress",
+      "id": 9
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "blognew": "this is my new blog"
+    },
+    {
+      "blog": "<p>jiwjskns</p>",
+      "id": 2
+    },
+    {
+      "blog": "<p>yyhuhujnknknknknk</p>",
+      "id": 3
+    },
+    {
+      "blog": "<p>yuhunjnjnjnjnj</p>",
+      "id": 4
+    },
+    {
+      "blog": "<p>kwknskwnswnmswms</p>",
+      "id": 5
+    }
+  ],
+  "category": [
+    "Technology",
+    "Fiction",
+    "Science",
+    "Sports"
+  ],
+  "MyBlogs": [
+    {
+      "title": "Hockey",
+      "authorID": "auth id",
+      "category": "Sports",
+      "imageUrl": "https://www.towcestrians.co.uk/wp-content/uploads/2019/10/Hockey-Header-Image.jpg",
+      "summary": "This is a small description of my fitness blog",
+      "Status of Blog ": "In Progress",
+      "id": 9
+    },
+    {
+      "title": "Fiction Magnate",
+      "authorID": "auth id",
+      "category": "Fiction",
+      "imageUrl": "https://th.bing.com/th/id/R.6a8a0dd97d723dc3778a89d4dc06d987?rik=Dd1z2OQzT1f7nw&riu=http%3a%2f%2ffictionpictures.com%2fwp-content%2fuploads%2f2016%2f08%2fHinterlands-16x9.jpg&ehk=MlVVnSTxJStVfTuYH8ujQ0jwGQ69RspVVYdk0r2GPqc%3d&risl=&pid=ImgRaw&r=0",
+      "summary": "This is a small description of my story blog",
+      "Status of Blog ": "In Progress",
+      "id": 9
+    }
+    
+  ]
+}

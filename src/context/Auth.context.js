@@ -56,6 +56,7 @@ const fetchLogin = (email, password, callback) =>
   setTimeout(() => {
     if (email === 'admin@gmail.com' && password === 'admin') {
        return callback(null);
+       
     //   console.log("hello");
     } else {
       return callback(new Error('Invalid email and password'));

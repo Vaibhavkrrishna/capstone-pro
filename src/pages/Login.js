@@ -1,6 +1,5 @@
 import React, {useContext,useState} from 'react';
 
-<<<<<<< HEAD
 import { useSetState } from 'react-use';
 import { AuthContext } from '../context/Auth.context.js';
 import './Login.css';
@@ -24,18 +23,21 @@ const LoginForm = () => {
     });
   }
     
+  const buttonStatus=()=>{
+    console.log(isLoggedIn);
+  }
   return (
     <div className="form-holder">
     <form name="loginForm" onSubmit={onSubmit}>
-
+     <h1 className='text-2xl mb-4 font-semibold ml-36 text-slate-600'>Login</h1>
       <div className="row ">
 
-        <div className=" ml-6">
+        <div className=" ml-4 mb-2 text-slate-500">
           <label htmlFor="email">Username</label>
         </div>
         
-        <div className="col-sm-9 col-md-6 text-black ml-6 mb-5 rounded-b-md " >
-          <input className='h-9 w-72 mb-5'
+        <div className="col-sm-9 col-md-6 text-black ml-4 mb-4 rounded-b-md " >
+          <input className='h-9 w-80 '
             type="text" 
             name="email" 
             onChange={e => setState({email: e.target.value})} 
@@ -44,11 +46,11 @@ const LoginForm = () => {
           />
         </div>
 
-        <div className="col-sm-3 col-md-6 ml-6">
+        <div className="col-sm-3 col-md-6 ml-4 mb-2  text-slate-500">
           <label htmlFor="password">Password</label>
         </div>
-        <div className="col-sm-9 col-md-6  text-black ml-6 mb-5 rounded-b-md">
-            <input className='h-9 w-72 mb-5'
+        <div className="col-sm-9 col-md-6  text-black ml-4 mb-5 rounded-b-md">
+            <input className='h-9 w-80 '
               type="password" 
               name="password" 
               onChange={e => setState({password: e.target.value})} 
@@ -59,28 +61,22 @@ const LoginForm = () => {
 
         <div className="col-sm-3 col-md-6">
         </div>
-        <div className="col-sm-9 col-md-6 bg-sky-500 text-center w-80 ml-2 h-9 mb-3">
+        
           {/* <input className="primary" type="submit" value="Login" /> */}
-          <button>Login</button>
-        </div>
+         <button onClick={buttonStatus} className="col-sm-9 col-md-6  bg-teal-400 text-center w-full ml-20 h-9 mb-3 font-semibold">Login</button>
+    
         
       </div>
 
       { isLoginPending && <div>Please wait...</div> }
-      { isLoggedIn && <div>Success.</div> }
+      { isLoggedIn && <div>Success.</div> 
+      }
       { loginError && <div>{loginError.message}</div> }
     </form>
     </div>
-=======
-export default function Login() {
-  let [show,setShow] = useState(true);
-  return (
-    <div><button onClick={()=>{
-        setShow(!show)
-      }}>Login</button></div>
->>>>>>> 5424ffd30434ebd79d1e5ebc1777e1405236e6a9
   )
 }
 
 
 export default LoginForm;
+
